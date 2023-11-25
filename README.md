@@ -1,14 +1,9 @@
 # Movies-Recommender-System
-This repository provides access to the notebook used in showcasing a  movie recommendation engine prototype I have implemented in Applied Machine Learning at Scale
+In recent years, the explosion of data and the popularity of e-commerce and streaming platforms have made personalized recommendations a vital component of many businesses. From Amazon to Netflix, recommendation engines have become ubiquitous in modern online commerce. This repository provides access to the notebook used to obtain the results for a [technical report](https://drive.google.com/file/d/1fcvNiU6CGfjQSWAayQ-77xRBOr1Gk3GY/view?usp=sharing) showcasing a prototype of a recommendation engine we have developed and explaining its value to any business: a case study of Applied Machine Learning at Scale. 
 
-In this project, we implement three such models: Recurrent Neural Networks (RNN), Long
-Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) to predict daily closing prices of AEX
-index listed on Euronext Amsterdam. These models were trained using a stock dataset composed of
-daily closing prices of 8 indices trading on different stock markets, including AEX index. Three accuracy
-tests: MAE, RMSE and MAPE were used to measure the performance of each model. The results have
-shown that GRU performed better than RNN and LSTM in terms of predictive accuracy.
+Our recommendation engine is based on collaborative filtering, a technique that analyzes the preferences and behaviours of users to recommend items they might like. This is a popular technique for building recommendation systems, which relies on the idea that users with similar preferences will have similar preferences in the future. This method can be used for various item recommendations, such as books, music, and movies, and is effective in many real-world applications. Our prototype will use the Alternating Least Squares (ALS) algorithm, a matrix factorization method that can handle large datasets and effectively capture user-item interactions. Our engine also incorporates content-based filtering by considering movie genres to improve the accuracy of recommendations.
 
-This is a simple unified framework for predicting stock prices using machine learning models from my [MSc Mathematical Sciences](https://drive.google.com/file/d/1PD7tn2eRz3VI0Xq71WBdmGFnBG7i5DLP/view?usp=sharing)  research project implemented in [TensorFlow](https://www.tensorflow.org). The project uses three deep neural network models: RNN, LSTM, and GRU to forecast stock time series data composed of closing prices of 8 indices of stocks listed on different stock markets. The selected indices are AEX index, DAXINDX, CAC40,
+Our engine also incorporates content-based This is a simple unified framework for predicting stock prices using machine learning models from my [MSc Mathematical Sciences](https://drive.google.com/file/d/1PD7tn2eRz3VI0Xq71WBdmGFnBG7i5DLP/view?usp=sharing)  research project implemented in [TensorFlow](https://www.tensorflow.org). The project uses three deep neural network models: RNN, LSTM, and GRU to forecast stock time series data composed of closing prices of 8 indices of stocks listed on different stock markets. The selected indices are AEX index, DAXINDX, CAC40,
 FTSE100, HNGKNGI, JAPDOWA, NASCOMP, and ATHEX Composite. Below is an illustration of how machine learning can be used in stock market prediction.
 
 ![alt text](https://drive.google.com/uc?id=1Pws9qssKrTc_PXQ7F_Q6NSPZjVJZDrVq) 
